@@ -12,11 +12,19 @@ struct ContentView: View {
         TabView{
             ConsultaView()
                 .tabItem{
-                    Label("Consultas", systemImage: "list.dash")
+                    Label("Consultas", systemImage: "doc.text.below.ecg")
                 }
             ProdutosView()
                 .tabItem{
-                    Label("Produtos", systemImage: "square.and.pencil")
+                    Label("Produtos", systemImage: "cart")
+                }
+            ServicosView()
+                .tabItem{
+                    Label("Serviços", systemImage: "lifepreserver")
+                }
+            MinhaContaView()
+                .tabItem{
+                    Label("Minha Conta", systemImage: "person.circle")
                 }
         }
     }

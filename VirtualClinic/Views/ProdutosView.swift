@@ -11,7 +11,7 @@ struct ProdutosView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Text("Hello World")
+                Text("Página em Construção, Ver no figma o pré design a seguir")
             }
         }
     }

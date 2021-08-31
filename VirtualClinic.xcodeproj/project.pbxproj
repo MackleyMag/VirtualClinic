@@ -18,6 +18,8 @@
 		401CBA7126DE4D3000BC9805 /* consultas.json in Resources */ = {isa = PBXBuildFile; fileRef = 401CBA7026DE4D3000BC9805 /* consultas.json */; };
 		401CBA7326DE516000BC9805 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA7226DE516000BC9805 /* Dados.swift */; };
 		401CBA7526DE580200BC9805 /* ConsultaDetalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA7426DE580200BC9805 /* ConsultaDetalhes.swift */; };
+		401CBA7726DE614A00BC9805 /* ServicosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA7626DE614A00BC9805 /* ServicosView.swift */; };
+		401CBA7926DE615D00BC9805 /* MinhaContaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA7826DE615D00BC9805 /* MinhaContaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		401CBA7026DE4D3000BC9805 /* consultas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = consultas.json; sourceTree = "<group>"; };
 		401CBA7226DE516000BC9805 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		401CBA7426DE580200BC9805 /* ConsultaDetalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaDetalhes.swift; sourceTree = "<group>"; };
+		401CBA7626DE614A00BC9805 /* ServicosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicosView.swift; sourceTree = "<group>"; };
+		401CBA7826DE615D00BC9805 /* MinhaContaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaContaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				401CBA6B26DDC58B00BC9805 /* Consulta */,
 				401CBA6726DDC31D00BC9805 /* ConsultaView.swift */,
 				401CBA6926DDC32A00BC9805 /* ProdutosView.swift */,
+				401CBA7626DE614A00BC9805 /* ServicosView.swift */,
+				401CBA7826DE615D00BC9805 /* MinhaContaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,8 +200,10 @@
 			files = (
 				401CBA7326DE516000BC9805 /* Dados.swift in Sources */,
 				401CBA6F26DE4CBB00BC9805 /* Consulta.swift in Sources */,
+				401CBA7926DE615D00BC9805 /* MinhaContaView.swift in Sources */,
 				401CBA6A26DDC32A00BC9805 /* ProdutosView.swift in Sources */,
 				401CBA5126DDBD3700BC9805 /* ContentView.swift in Sources */,
+				401CBA7726DE614A00BC9805 /* ServicosView.swift in Sources */,
 				401CBA7526DE580200BC9805 /* ConsultaDetalhes.swift in Sources */,
 				401CBA6D26DDCB0D00BC9805 /* ConsultaCelula.swift in Sources */,
 				401CBA4F26DDBD3700BC9805 /* VirtualClinicApp.swift in Sources */,
