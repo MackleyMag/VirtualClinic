@@ -11,6 +11,13 @@
 		401CBA5126DDBD3700BC9805 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA5026DDBD3700BC9805 /* ContentView.swift */; };
 		401CBA5326DDBD3900BC9805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401CBA5226DDBD3900BC9805 /* Assets.xcassets */; };
 		401CBA5626DDBD3900BC9805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401CBA5526DDBD3900BC9805 /* Preview Assets.xcassets */; };
+		401CBA6826DDC31E00BC9805 /* ConsultaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA6726DDC31D00BC9805 /* ConsultaView.swift */; };
+		401CBA6A26DDC32A00BC9805 /* ProdutosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA6926DDC32A00BC9805 /* ProdutosView.swift */; };
+		401CBA6D26DDCB0D00BC9805 /* ConsultaCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA6C26DDCB0D00BC9805 /* ConsultaCelula.swift */; };
+		401CBA6F26DE4CBB00BC9805 /* Consulta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA6E26DE4CBB00BC9805 /* Consulta.swift */; };
+		401CBA7126DE4D3000BC9805 /* consultas.json in Resources */ = {isa = PBXBuildFile; fileRef = 401CBA7026DE4D3000BC9805 /* consultas.json */; };
+		401CBA7326DE516000BC9805 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA7226DE516000BC9805 /* Dados.swift */; };
+		401CBA7526DE580200BC9805 /* ConsultaDetalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CBA7426DE580200BC9805 /* ConsultaDetalhes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		401CBA5226DDBD3900BC9805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401CBA5526DDBD3900BC9805 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		401CBA5726DDBD3900BC9805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401CBA6726DDC31D00BC9805 /* ConsultaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaView.swift; sourceTree = "<group>"; };
+		401CBA6926DDC32A00BC9805 /* ProdutosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosView.swift; sourceTree = "<group>"; };
+		401CBA6C26DDCB0D00BC9805 /* ConsultaCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaCelula.swift; sourceTree = "<group>"; };
+		401CBA6E26DE4CBB00BC9805 /* Consulta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consulta.swift; sourceTree = "<group>"; };
+		401CBA7026DE4D3000BC9805 /* consultas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = consultas.json; sourceTree = "<group>"; };
+		401CBA7226DE516000BC9805 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		401CBA7426DE580200BC9805 /* ConsultaDetalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaDetalhes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,9 @@
 		401CBA4D26DDBD3700BC9805 /* VirtualClinic */ = {
 			isa = PBXGroup;
 			children = (
+				401CBA5F26DDBE0B00BC9805 /* Mocks */,
+				401CBA5E26DDBE0000BC9805 /* Views */,
+				401CBA5D26DDBDF500BC9805 /* Models */,
 				401CBA4E26DDBD3700BC9805 /* VirtualClinicApp.swift */,
 				401CBA5026DDBD3700BC9805 /* ContentView.swift */,
 				401CBA5226DDBD3900BC9805 /* Assets.xcassets */,
@@ -67,6 +84,42 @@
 				401CBA5526DDBD3900BC9805 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		401CBA5D26DDBDF500BC9805 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				401CBA6E26DE4CBB00BC9805 /* Consulta.swift */,
+				401CBA7226DE516000BC9805 /* Dados.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		401CBA5E26DDBE0000BC9805 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				401CBA6B26DDC58B00BC9805 /* Consulta */,
+				401CBA6726DDC31D00BC9805 /* ConsultaView.swift */,
+				401CBA6926DDC32A00BC9805 /* ProdutosView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		401CBA5F26DDBE0B00BC9805 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				401CBA7026DE4D3000BC9805 /* consultas.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		401CBA6B26DDC58B00BC9805 /* Consulta */ = {
+			isa = PBXGroup;
+			children = (
+				401CBA6C26DDCB0D00BC9805 /* ConsultaCelula.swift */,
+				401CBA7426DE580200BC9805 /* ConsultaDetalhes.swift */,
+			);
+			path = Consulta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401CBA7126DE4D3000BC9805 /* consultas.json in Resources */,
 				401CBA5626DDBD3900BC9805 /* Preview Assets.xcassets in Resources */,
 				401CBA5326DDBD3900BC9805 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401CBA7326DE516000BC9805 /* Dados.swift in Sources */,
+				401CBA6F26DE4CBB00BC9805 /* Consulta.swift in Sources */,
+				401CBA6A26DDC32A00BC9805 /* ProdutosView.swift in Sources */,
 				401CBA5126DDBD3700BC9805 /* ContentView.swift in Sources */,
+				401CBA7526DE580200BC9805 /* ConsultaDetalhes.swift in Sources */,
+				401CBA6D26DDCB0D00BC9805 /* ConsultaCelula.swift in Sources */,
 				401CBA4F26DDBD3700BC9805 /* VirtualClinicApp.swift in Sources */,
+				401CBA6826DDC31E00BC9805 /* ConsultaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VirtualClinic/Preview Content\"";
-				DEVELOPMENT_TEAM = 385SHXWC44;
+				DEVELOPMENT_TEAM = 96N8PT9TS4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VirtualClinic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -291,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VirtualClinic/Preview Content\"";
-				DEVELOPMENT_TEAM = 385SHXWC44;
+				DEVELOPMENT_TEAM = 96N8PT9TS4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VirtualClinic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

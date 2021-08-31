@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "titulo": "Cardiologia",
+        "imagem": "doc-pic",
+        "atendimento": "Uberlândia, São Paulo",
+        "profissional": "Fulano Carlos Pontes",
+        "textodescritivo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tempus metus. Etiam aliquam justo sed sollicitudin lacinia. Quisque mollis, metus eget commodo aliquet, lectus nisi luctus dolor, in pretium tellus dui eget est. Donec vehicula purus non turpis pulvinar vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacus nunc, dictum vel justo vel, fringilla gravida odio. Sed ac elit et lorem porta elementum. Duis diam est, euismod ut bibendum ac, pharetra id ligula. Phasellus mattis pellentesque varius. Aenean molestie ultricies turpis, id eleifend lorem varius at. Phasellus pellentesque dictum arcu, non efficitur nisl ultricies id. Etiam elementum congue turpis sed tempus. Quisque consequat eget lacus sit amet sollicitudin.",
+        "pagamento": {
+            "paypal": true,
+            "cash": false,
+            "card": true
+        }
+    },
+    {
+        "id": 2,
+        "titulo": "Endrocnologia",
+        "imagem": "doc-pic-2",
+        "atendimento": "Uberaba, São Paulo",
+        "profissional": "Lorem Ipsum",
+        "textodescritivo": "Aliquam fermentum dignissim velit, vel aliquet nibh vehicula eget. Integer nunc augue, scelerisque sit amet lobortis ut, imperdiet at dui. Ut non diam ligula. Maecenas maximus lobortis tellus, nec fermentum dui placerat non. Vivamus aliquet aliquam felis, quis sodales quam molestie eu. Fusce aliquet enim ut erat malesuada, ac porttitor tortor rutrum. Nulla vitae blandit odio, ut auctor metus. Donec lacus libero, luctus at lacus vitae, ornare efficitur mi. Cras euismod commodo erat. Nullam in nisl turpis. Curabitur faucibus diam vulputate euismod dictum. Suspendisse sed nunc et ante tristique pretium. Phasellus ultricies, ligula sed suscipit mollis, massa nisi auctor nunc, in auctor ipsum sem in leo. Curabitur at aliquam diam, id viverra felis. Donec aliquam nec ante sit amet luctus.",
+        "pagamento": {
+            "paypal": false,
+            "cash": true,
+            "card": true
+        }
+    },
+    {
+        "id": 3,
+        "titulo": "Psicologia",
+        "imagem": "doc-pic-3",
+        "atendimento": "Ribeirão Preto, São Paulo",
+        "profissional": "Ciclano Dru Montes",
+        "textodescritivo": "Morbi non turpis quis nibh pharetra dictum. Donec nunc ex, vulputate ac gravida in, malesuada cursus lacus. Cras lacinia sagittis imperdiet. Aliquam auctor sed lacus et semper. Vestibulum congue ipsum viverra risus consequat laoreet. Donec quis mollis ligula. Ut finibus, elit non euismod tempus, massa purus tristique sem, vel sagittis enim lacus quis eros. Quisque orci mauris, semper nec elementum tincidunt, varius at sapien. Etiam fermentum lectus ut nisl porta, non finibus nisl volutpat. Etiam eu sapien at nulla volutpat tempor. Fusce bibendum accumsan ligula, sed sagittis purus volutpat vel. Donec ligula ligula, elementum eu diam ac, ultricies lobortis nisi. Praesent porttitor tellus vitae fermentum congue.",
+        "pagamento": {
+            "paypal": true,
+            "cash": true,
+            "card": true
+        }
+    },
+    {
+        "id": 4,
+        "titulo": "Psiquiatria",
+        "imagem": "doc-pic",
+        "atendimento": "Campinas, São Paulo",
+        "profissional": "Bel Tsui Via",
+        "textodescritivo": "Praesent volutpat purus nec nisl pharetra, sit amet rhoncus lorem feugiat. Suspendisse iaculis ante ac magna lacinia tincidunt. Nulla eget dolor iaculis nisi eleifend commodo. Proin rhoncus nulla tincidunt rutrum efficitur. Sed congue, dolor id molestie maximus, turpis erat porttitor nisi, in ultrices mauris eros at nunc. Proin viverra imperdiet mi, id mollis urna semper tristique. Proin non libero a purus ornare lobortis a vitae quam. Maecenas aliquet semper ante vel interdum. Donec eget urna nec ante dignissim finibus sit amet sed nunc. Sed volutpat in massa nec accumsan. Sed tincidunt mauris sed elit maximus, quis facilisis eros blandit. Integer quis sapien sed tellus imperdiet faucibus maximus id tellus. Nullam laoreet vulputate felis eget placerat. Fusce malesuada interdum nulla ac mollis.",
+        "pagamento": {
+            "paypal": true,
+            "cash": true,
+            "card": false
+        }
+    }
+]
